@@ -1,0 +1,11 @@
+CREATE TABLE `records` (
+`id` INT NOT NULL AUTO_INCREMENT,
+`acno` varchar(45) NOT NULL,
+`name` varchar(255) NOT NULL,
+`col_date` date NOT NULL,
+`test` varchar(255) NOT NULL,
+`fax` varchar(255) NOT NULL,
+`col_loc` varchar(255) NOT NULL,
+`initials` varchar(255) NOT NULL,
+PRIMARY KEY (`id`)) 
+ENGINE=InnoDB;
